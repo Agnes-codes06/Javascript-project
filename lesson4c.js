@@ -84,7 +84,7 @@ areaOfTriangle(100, 21)
 // area of circle
 const areaOfCircle = function(radius){
 
-    let areaofcircle = 22/7 * radius * radius
+    let areaofcircle = 22/7 * radius ** 2
 
     console.log(`the area of circle is ${areaofcircle}`)
 }
